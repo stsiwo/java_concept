@@ -47,7 +47,7 @@ public class MyClass {
 
 ```
 
-but if you assign a new object to an existing reference object in the called function, Java assign a new memory address to the variable so the variable in the called function does not affect the change.
+but if you assign a new object to an existing reference object in the called function, Java assign a new memory address to __a copy__ of the variable so the variable in the called function does not affect the change.
 
 ```
 public class MyClass {
