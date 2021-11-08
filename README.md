@@ -18,7 +18,15 @@ Object o = new Object(); // memory address: 27082746
 o = new Object(); // new memory address: XXXXXX
 ```
 
+## pass by reference
+
+always pass a variable (not copy). this means that the same variable are used in the called function. 
+
+no pass by reference in java.
+
 ## pass by value
+
+always pass a copy of a variable. this means that create a new variable for the copy.
 
 java always use 'pass-by-value' even if you pass a reference. it pass a copy of the reference (e.g., a copy of memory address).
 
